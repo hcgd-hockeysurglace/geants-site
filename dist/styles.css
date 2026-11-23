@@ -72,19 +72,16 @@ body {
 .shop-intro span{display:inline-block;padding:7px 9px;background:var(--gold);color:var(--ink);font-size:8px;font-weight:800;letter-spacing:.11em}
 .shop-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .product-card{background:#fff;color:var(--ink)}
-.product-visual{height:350px;position:relative;display:grid;place-items:center;overflow:hidden;background:linear-gradient(145deg,#f2edf3,#d8cddc)}
-.product-puck .product-visual{background:radial-gradient(circle at 50% 45%,#5d1a70 0 3%,transparent 4%),linear-gradient(145deg,#f1cb68,#c4952a)}
-.product-tag{position:absolute;top:16px;left:16px;background:var(--purple);color:#fff;padding:7px 9px;font-size:8px;font-weight:800;letter-spacing:.12em}
-.puck{width:205px;height:205px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 40% 32%,#3d3d3d,#050505 65%);box-shadow:0 25px 35px rgba(24,5,31,.38),inset 0 0 0 5px #151515;transform:rotate(-8deg)}
-.puck img{width:92px;height:92px;object-fit:contain}
-.jersey-bg{background:linear-gradient(150deg,#eee7f0,#c9b9ce)}
-.jersey-bg.alternate{background:linear-gradient(150deg,#eac65e,#b8871e)}
-.jersey{width:190px;height:230px;position:relative;display:flex;flex-direction:column;align-items:center;padding-top:48px;background:linear-gradient(90deg,#2a073d,#58106e 50%,#2a073d);clip-path:polygon(20% 0,36% 10%,64% 10%,80% 0,100% 18%,87% 39%,78% 31%,82% 100%,18% 100%,22% 31%,13% 39%,0 18%);filter:drop-shadow(0 20px 18px rgba(25,3,33,.3))}
-.jersey:after{content:'';position:absolute;left:17%;right:17%;bottom:25px;height:8px;background:var(--gold)}
-.jersey i{position:absolute;top:5px;width:46px;height:25px;border:5px solid var(--gold);border-top:0;border-radius:0 0 50% 50%}
-.jersey img{width:61px;height:61px;object-fit:contain}
-.jersey b{font-family:'Barlow Condensed';font-size:26px;letter-spacing:.1em;color:#fff;margin-top:9px}
-.jersey.embroidery,.jersey.embroidered{background:linear-gradient(90deg,#1c0327,#380748 50%,#1c0327)}
+.product-visual {
+  height: 350px;
+  background: #fff;
+}
+
+.product-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .product-info{min-height:145px;padding:23px;display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
 .product-info p{font-size:8px;font-weight:800;letter-spacing:.16em;color:var(--purple2);margin:0 0 7px}
 .product-info h3{font-size:25px;line-height:1;text-transform:none}
