@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Maquette de la nouvelle page d’accueil du Hockey Club Les Géants de Douai.">
+  <title>Les Géants de Douai — Hockey sur glace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header" id="accueil">
+    <div class="nav-shell">
+      <a class="brand" href="#accueil" aria-label="Les Géants de Douai — Accueil">
+        <img src="assets/logo.webp" alt="Logo des Géants de Douai">
+        <span><strong>LES GÉANTS</strong><small>HOCKEY CLUB DE DOUAI</small></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Ouvrir le menu">
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span><b>MENU</b>
+      </button>
+      <nav id="navigation" aria-label="Navigation principale">
+        <a href="#equipes">Équipes</a>
+        <a href="#entrainements">Entraînements</a>
+        <a href="#actualites">Actualités</a>
+        <a href="#boutique">Boutique</a>
+        <a href="#club">Le club</a>
+        <a class="nav-cta" href="#rejoindre">Faire un essai</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-lines" aria-hidden="true"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow"><span></span> HOCKEY SUR GLACE · DOUAISIS</p>
+        <h1 id="hero-title">ENTRE DANS<br><em>LA LÉGENDE.</em></h1>
+        <p class="hero-lead">Découvre le hockey sur glace avec Les Géants de Douai, de l’initiation au loisir adulte, à la patinoire Polarys.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#rejoindre">Réserver un essai <span>→</span></a>
+          <a class="button button-ghost" href="#entrainements">Voir les horaires</a>
+        </div>
+        <div class="hero-facts" aria-label="Informations clés">
+          <div><strong>4</strong><span>pratiques<br>présentées</span></div>
+          <div><strong>2</strong><span>pistes à<br>Polarys</span></div>
+          <div><strong>2025</strong><span>création de<br>l’association</span></div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">DÉCOUVRIR <span>↓</span></div>
+    </section>
+
+    <section class="section teams" id="equipes">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="kicker">CHOISIS TA GLACE</p><h2>UNE ÉQUIPE<br><span>POUR CHACUN.</span></h2></div>
+          <p>Débuter, progresser ou simplement retrouver les sensations du jeu : le club accueille plusieurs profils sur la glace.</p>
+        </div>
+        <div class="team-grid">
+          <article class="team-card team-youth">
+            <span class="card-index">01</span><span class="status verified">Site actuel</span>
+            <div><p>JEUNES</p><h3>Mineurs</h3><span>Découverte & progression</span></div>
+            <a href="#entrainements" aria-label="Voir les horaires des mineurs">↗</a>
+          </article>
+          <article class="team-card team-women">
+            <span class="card-index">02</span><span class="status verified">Site actuel</span>
+            <div><p>100 % FÉMININ</p><h3>Tous âges</h3><span>Un créneau dédié</span></div>
+            <a href="#entrainements" aria-label="Voir les horaires féminins">↗</a>
+          </article>
+          <article class="team-card team-leisure">
+            <span class="card-index">03</span><span class="status verified">Site actuel</span>
+            <div><p>LOISIR</p><h3>16 ans et +</h3><span>Filles & garçons</span></div>
+            <a href="#entrainements" aria-label="Voir les horaires loisirs">↗</a>
+          </article>
+          <article class="team-card team-trial">
+            <span class="card-index">04</span><span class="status concept">Proposition</span>
+            <div><p>PREMIERS PAS</p><h3>Séance d’essai</h3><span>Modalités à confirmer</span></div>
+            <a href="#rejoindre" aria-label="Demander une séance d’essai">↗</a>
+          </article>
+        </div>
+        <p class="source-note"><b>Transparence :</b> les catégories reprennent le site et le planning actuels. Les intitulés et modalités d’essai restent à valider par le club.</p>
+      </div>
+    </section>
+
+    <section class="section schedule" id="entrainements">
+      <div class="wrap schedule-layout">
+        <div class="schedule-intro">
+          <p class="kicker light">SUR LA GLACE</p>
+          <h2>ENTRAÎNEMENTS<br><span>2026 · 2027</span></h2>
+          <p>Créneaux en période scolaire, à la patinoire Polarys. Le planning peut évoluer selon le nombre de licenciés et les niveaux.</p>
+          <a class="text-link" href="https://hcgd-hockey-sur-glace.odoo.com/horaires-des-entrainements-2026-2027" target="_blank" rel="noreferrer">Consulter le planning source ↗</a>
+        </div>
+        <div class="schedule-board">
+          <div class="schedule-warning"><span>À VALIDER</span> avant publication définitive</div>
+          <div class="slot"><time>LUN <b>20:15</b></time><div><strong>Loisir adultes · 16+</strong><span>Grande glace · jusqu’à 21:30</span></div></div>
+          <div class="slot featured"><time>MER <b>19:45</b></time><div><strong>100 % filles · tous âges</strong><span>Petite glace · jusqu’à 20:45</span></div></div>
+          <div class="slot"><time>MER <b>21:00</b></time><div><strong>Loisir adultes · 16+</strong><span>Grande glace · jusqu’à 22:15</span></div></div>
+          <div class="slot"><time>VEN <b>17:00</b></time><div><strong>Tous les mineurs</strong><span>Grande glace · jusqu’à 19:00</span></div></div>
+          <div class="slot match"><time>SAM <b>18:00</b></time><div><strong>Créneau matchs</strong><span>Jusqu’à 20:00</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news" id="actualites">
+      <div class="wrap">
+        <div class="section-head compact">
+          <div><p class="kicker">LA VIE DES GÉANTS</p><h2>DERNIÈRES<br><span>ACTUALITÉS.</span></h2></div>
+          <p class="mockup-label">CONTENUS FICTIFS POUR LA MAQUETTE</p>
+        </div>
+        <div class="news-grid">
+          <article class="news-main">
+            <div class="news-photo photo-one"><span>EXEMPLE</span></div>
+            <div class="news-copy"><p>CLUB · DATE À DÉFINIR</p><h3>Une nouvelle saison se prépare sur la glace de Polarys</h3><a href="#rejoindre">Découvrir <span>→</span></a></div>
+          </article>
+          <article class="news-small">
+            <div class="news-photo photo-two"><span>EXEMPLE</span></div>
+            <div class="news-copy"><p>ÉQUIPE · DATE À DÉFINIR</p><h3>Dans les coulisses d’un entraînement des Géants</h3><a href="#rejoindre">Lire <span>→</span></a></div>
+          </article>
+          <article class="news-small accent-card">
+            <div><span class="big-mark">“</span><p>PROCHAINE INFO</p><h3>Résultat, tournoi ou événement du club</h3><span class="status concept">À remplacer</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shop" id="boutique">
+      <div class="wrap">
+        <div class="section-head shop-head">
+          <div><p class="kicker light">PORTER NOS COULEURS</p><h2>LA BOUTIQUE<br><span>DES GÉANTS.</span></h2></div>
+          <div class="shop-intro"><p>Palets et maillots aux couleurs du HCGD, proposés par le club.</p><span>TARIFS DU SITE ACTUEL · À CONFIRMER</span></div>
+        </div>
+        <div class="shop-grid">
+          <article class="product-card product-puck">
+            <div class="product-visual"><div class="puck"><img src="assets/logo.webp" alt=""></div><span class="product-tag">BEST-SELLER</span></div>
+            <div class="product-info"><div><p>ACCESSOIRE</p><h3>Palet du HCGD</h3><span>Le palet officiel aux couleurs des Géants</span></div><strong>6 €</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-visual jersey-bg"><div class="jersey"><i></i><img src="assets/logo.webp" alt=""><b>HCGD</b></div><span class="product-tag">COUPE LARGE</span></div>
+            <div class="product-info"><div><p>MAILLOT</p><h3>Version sublimée</h3><span>Tailles XS à 5XL selon disponibilité</span></div><strong><small>DÈS</small> 50 €</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-visual jersey-bg alternate"><div class="jersey embroidered"><i></i><img src="assets/logo.webp" alt=""><b>GÉANTS</b></div><span class="product-tag">FINITION BRODÉE</span></div>
+            <div class="product-info"><div><p>MAILLOT</p><h3>Version brodée</h3><span>Tailles XS à 5XL selon disponibilité</span></div><strong><small>DÈS</small> 65 €</strong></div>
+          </article>
+        </div>
+        <div class="shop-footer"><p><b>À confirmer :</b> stocks, tailles, délais et modalités de commande.</p><a class="button button-gold" href="https://hcgd-hockey-sur-glace.odoo.com/nos-goodies" target="_blank" rel="noreferrer">Voir tous les goodies <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="club" id="club">
+      <div class="club-image" role="img" aria-label="Patinoire et équipement de hockey"></div>
+      <div class="club-copy">
+        <p class="kicker light">NOTRE TERRITOIRE</p>
+        <h2>GÉANTS PAR<br><span>NATURE.</span></h2>
+        <p>Le Hockey Club Les Géants de Douai est une association du Douaisis. Son nom fait écho aux géants de Gayant, figures emblématiques de la ville.</p>
+        <ul><li><b>Association déclarée</b><span>Créée le 16 juin 2025</span></li><li><b>Patinoire Polarys</b><span>90 rue Joséphine Baker, Sin-le-Noble</span></li><li><b>Encadrement bénévole</b><span>Information issue des sources publiques</span></li></ul>
+      </div>
+    </section>
+
+    <section class="section partners" id="partenaires">
+      <div class="wrap">
+        <p class="kicker">À NOS CÔTÉS</p><h2>PARTENAIRES</h2>
+        <div class="partner-row" aria-label="Emplacements partenaires">
+          <div>PARTENAIRE<br><small>LOGO ACTUEL À IMPORTER</small></div><div>PARTENAIRE<br><small>LOGO ACTUEL À IMPORTER</small></div><div>PARTENAIRE<br><small>LOGO ACTUEL À IMPORTER</small></div><div>DEVENIR<br><small>PARTENAIRE ↗</small></div>
+        </div>
+        <p class="source-note"><b>Proposition :</b> les logos du site actuel seront repris après validation des partenaires actifs et récupération des fichiers haute définition.</p>
+      </div>
+    </section>
+
+    <section class="join" id="rejoindre">
+      <div class="join-ring" aria-hidden="true"></div>
+      <div class="wrap join-content">
+        <p class="kicker light">PRÊT À CHAUSSER LES PATINS ?</p>
+        <h2>REJOINS<br><span>LES GÉANTS.</span></h2>
+        <p>Une question sur l’inscription, l’équipement ou le bon créneau ? Contacte directement le club.</p>
+        <div class="join-actions">
+          <a class="button button-gold" href="mailto:hockeysurglacelesgeants@gmail.com?subject=Demande%20d%27essai%20-%20Les%20G%C3%A9ants%20de%20Douai">Écrire au club <span>→</span></a>
+          <a class="button button-ghost" href="tel:+33663973775">06 63 97 37 75</a>
+        </div>
+        <p class="contact-proof">Coordonnées vérifiées sur le site actuel · Aucun formulaire n’est envoyé depuis cette maquette.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div class="footer-brand"><img src="assets/logo.webp" alt=""><div><strong>LES GÉANTS DE DOUAI</strong><span>Hockey sur glace · HCGD</span></div></div>
+      <div><b>CLUB</b><a href="#equipes">Équipes</a><a href="#entrainements">Entraînements</a><a href="#club">À propos</a></div>
+      <div><b>PRATIQUE</b><a href="https://hcgd-hockey-sur-glace.odoo.com/dossier-d-inscription" target="_blank" rel="noreferrer">Dossier d’inscription ↗</a><a href="https://hcgd-hockey-sur-glace.odoo.com/equipement-du-joueur" target="_blank" rel="noreferrer">Équipement ↗</a><a href="#boutique">Boutique</a><a href="#rejoindre">Contact</a></div>
+      <div><b>COORDONNÉES</b><span>15 rue Foch<br>59552 Lambres-lez-Douai</span><a href="mailto:hockeysurglacelesgeants@gmail.com">hockeysurglacelesgeants@gmail.com</a></div>
+    </div>
+    <div class="wrap footer-bottom"><span>Maquette de refonte · Novembre 2026</span><span>RNA W593009095 · SIREN 989257332</span></div>
+  </footer>
+  <section class="ticker" aria-label="Valeurs du club">
+    <div class="ticker-track">
+      <span>PASSION <i aria-hidden="true">✦</i> PROGRESSION <i aria-hidden="true">✦</i> ESPRIT D’ÉQUIPE <i aria-hidden="true">✦</i> PLAISIR <i aria-hidden="true">✦</i></span>
+      <span aria-hidden="true">PASSION <i>✦</i> PROGRESSION <i>✦</i> ESPRIT D’ÉQUIPE <i>✦</i> PLAISIR <i>✦</i></span>
+      <span aria-hidden="true">PASSION <i>✦</i> PROGRESSION <i>✦</i> ESPRIT D’ÉQUIPE <i>✦</i> PLAISIR <i>✦</i></span>
+      <span aria-hidden="true">PASSION <i>✦</i> PROGRESSION <i>✦</i> ESPRIT D’ÉQUIPE <i>✦</i> PLAISIR <i>✦</i></span>
+    </div>
+  </section>
+  <script src="script.js?v=2"></script>
+</body>
+</html>
