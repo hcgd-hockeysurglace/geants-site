@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -119,22 +119,23 @@
 
     <section class="section news" id="actualites">
       <div class="wrap">
-        <div class="section-head compact">
-          <div><p class="kicker">LA VIE DES GÉANTS</p><h2>DERNIÈRES<br><span>ACTUALITÉS.</span></h2></div>
-          <p class="mockup-label">CONTENUS FICTIFS POUR LA MAQUETTE</p>
-        </div>
-        <div class="news-grid">
-          <article class="news-main">
-            <div class="news-photo photo-one"><span>EXEMPLE</span></div>
-            <div class="news-copy"><p>CLUB · DATE À DÉFINIR</p><h3>Une nouvelle saison se prépare sur la glace de Polarys</h3><a href="#rejoindre">Découvrir <span>→</span></a></div>
-          </article>
-          <article class="news-small">
-            <div class="news-photo photo-two"><span>EXEMPLE</span></div>
-            <div class="news-copy"><p>ÉQUIPE · DATE À DÉFINIR</p><h3>Dans les coulisses d’un entraînement des Géants</h3><a href="#rejoindre">Lire <span>→</span></a></div>
-          </article>
-          <article class="news-small accent-card">
-            <div><span class="big-mark">“</span><p>PROCHAINE INFO</p><h3>Résultat, tournoi ou événement du club</h3><span class="status concept">À remplacer</span></div>
-          </article>
+        <div class="club-news-layout">
+          <div class="section-head compact">
+            <div><p class="kicker">LA VIE DES GÉANTS</p><h2>DERNIÈRES<br><span>ACTUALITÉS.</span></h2></div>
+          </div>
+          <div class="club-social-panel">
+            <img src="assets/logo.webp" width="134" height="107" alt="">
+            <h3>Les Géants sur Facebook</h3>
+            <p>Retrouvez les publications du club, les annonces et les photos.</p>
+            <div class="club-social-actions">
+              <button class="button button-gold" id="facebook-toggle" type="button" aria-expanded="false" aria-controls="facebook-feed" hidden>Afficher le fil ici</button>
+              <a class="button social-outline" id="club-facebook" href="https://www.facebook.com/profile.php?id=61578957418852" target="_blank" rel="noopener noreferrer">Voir sur Facebook</a>
+            </div>
+            <div id="facebook-feed" hidden>
+              <p class="facebook-feed-note">L’affichage des publications dépend de Facebook. Si elles n’apparaissent pas, ouvrez la page du club.</p>
+              <div class="facebook-frame"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -180,6 +181,10 @@
             <h3>Nos activités</h3>
             <p>Notre équipe de bénévoles passionnés propose aux enfants des jeux et des exercices variés sur la glace, adaptés à leur niveau.</p>
             <a class="button button-gold" href="#entrainements">Voir les entraînements</a>
+            <div class="club-social-links" aria-label="Réseaux sociaux du club">
+              <a href="https://www.facebook.com/profile.php?id=61578957418852" target="_blank" rel="noopener noreferrer">Facebook</a>
+              <a href="https://www.instagram.com/les_geants_de_douai59/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
           </div>
           <figure class="club-photo">
             <img src="assets/hockey-paris-brest-action.jpg" width="960" height="720" loading="lazy" alt="Les joueurs des Français Volants de Paris et des Albatros de Brest disputent le palet">
@@ -242,6 +247,6 @@
       <span aria-hidden="true">PASSION <i>✦</i> PROGRESSION <i>✦</i> ESPRIT D’ÉQUIPE <i>✦</i> PLAISIR <i>✦</i></span>
     </div>
   </section>
-  <script src="script.js?v=2"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
