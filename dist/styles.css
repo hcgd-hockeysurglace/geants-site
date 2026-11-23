@@ -62,6 +62,84 @@ body {
   .menu-toggle[aria-expanded="true"] .menu-icon i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 }
 
+/* Présentation du club */
+.club {
+  display: block;
+  min-height: 0;
+}
+
+.club-overview {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: clamp(1.5rem, 5vw, 5rem);
+  align-items: center;
+}
+
+.club-overview h2 span {
+  color: var(--gold2);
+  -webkit-text-stroke: 0;
+}
+
+.club-overview h3 {
+  font-size: 1.75rem;
+  line-height: 1.1;
+}
+
+.club-overview p:not(.kicker) {
+  color: #e1d6e4;
+  line-height: 1.65;
+}
+
+.club-overview h3 + p {
+  margin-top: .5rem;
+}
+
+.club-photo {
+  margin: 0;
+}
+
+.club-photo img {
+  width: 100%;
+  height: auto;
+  border-bottom: .25rem solid var(--gold);
+}
+
+.club-photo figcaption {
+  margin-top: .65rem;
+  color: #d5c6d9;
+  font-size: .8rem;
+  line-height: 1.5;
+}
+
+.club-photo a {
+  color: var(--gold2);
+  text-decoration: underline;
+}
+
+.club-values-layout {
+  margin-top: clamp(2.5rem, 6vw, 5rem);
+  grid-template-columns: 1.15fr 1fr;
+}
+
+.club-values article {
+  padding: 1rem 0;
+  border-top: 1px solid #ffffff36;
+}
+
+.club-values article p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 740px) {
+  .club-overview {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .club-values-layout .club-photo {
+    grid-row: 2;
+  }
+}
+
 /* Planning des entraînements */
 .schedule-intro h2 span {
   color: var(--gold2);
